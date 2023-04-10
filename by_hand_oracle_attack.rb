@@ -62,10 +62,6 @@ encrypted = cipher.update(data) + cipher.final
 binary_cipher_text = string_to_binary(encrypted)
 
 
-tamper_ciphertext(binary_cipher_text, int_to_binary(15), 1)
-
-
-
 
 #fill in what we know about I3
 known_indices = [31]
